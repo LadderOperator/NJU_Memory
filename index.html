@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="container row">
-    <h1 class="cv-title"><span class="black white-text">{{ site.title }}</span></h1>
+    <h1 class="cv-title"><span class="black white-text" href="https://github.com/LadderOperator/NJU_Memory">{{ site.title }}</span></h1>
     {% assign steps = site.steps | sort: 'date' %}
     {% for step in steps %}
     <div class="item">
@@ -13,6 +13,7 @@ layout: default
             <h3 class="card-title">
                 {{ step.title }}
             </h3>
+            <hr>
             <p>
                 {{ step.content }}
             </p>
