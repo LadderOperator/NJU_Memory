@@ -1,14 +1,15 @@
 body {
-font-size:20px;
+font-size:14px;
 font-family:'Lato',sans-serif
 }
 img {
 max-width:100%
 }
-h1,h2,h3,h4,h5,h6 {
-font-family:'Oswald',sans-serif;
-text-transform:uppercase
+
+h2{
+    font-size:20px;
 }
+
 .item {
 padding-top:100px;
 min-height:150px;
@@ -41,7 +42,8 @@ margin:2rem 0 0 3rem
 }
 .item-date {
 margin-top:-60px;
-margin-left:4rem
+margin-left:4rem;
+font-size: 40px;
 }
 .cv-title {
 margin-bottom:0;
