@@ -1,6 +1,5 @@
 ---
-title: Composers
-timezone: Europe/Berlin
+title: NJU Memory
 collections:
   posts:
     title: Posts
@@ -22,6 +21,6 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 description: your resume
-baseurl: "/jekyll-timeline"
-url: http://himsel.me
+baseurl: "/NJU_Memory"
+url: https://ladderoperator.github.io/
 color: "#f2f2f2"
