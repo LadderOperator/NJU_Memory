@@ -1,6 +1,6 @@
 body {
 font-size:14px!important;
-font-family: SimSun
+font-family: Arial, Helvetica, sans-serif;
 }
 img {
 max-width:100%
@@ -44,7 +44,7 @@ padding: 7% 5% 7% 5%!important;
 .item-date {
 margin-top:-60px;
 margin-left:4rem;
-font-size: 40px;
+font-size: 40px!important;
 }
 .cv-title {
 margin-bottom:0;
