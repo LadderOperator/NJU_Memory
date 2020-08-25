@@ -1,3 +1,19 @@
+
+> 欢迎南哪儿人来为学校里的一些热点事件做记录备份
+
+更新方式：
+
+1. fork本仓库
+
+2. 修改或增加`_steps`中的记录
+
+3. 有余力的大佬帮忙改改样式就更好了（误）
+
+
+
+-------
+原始README
+
 # jekyll-timeline
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
