@@ -1,65 +1,94 @@
 body {
-font-size:14px!important;
-font-family: Arial, Helvetica, sans-serif;
-}
-img {
-max-width:100%
-}
-
-h2{
-    font-size:20px!important;
-}
-
-.item {
-padding-top:100px;
-min-height:150px;
-position:relative
-}
-.item:before,.last-item:after {
-background:#fff;
-border:8px solid #000;
-border-radius:50%;
-width:40px;
-height:40px;
-display:inline-block;
-content:"";
-margin-left:1rem;
-position:relative;
-z-index:1;
-left:calc(2% - 36px)
-}
-.vertical-line {
-width:8px;
-background-color:#000;
-position:absolute;
-left:calc(2% - 5px);
-top:0;
-bottom:0
-}
-.item .card-panel {
-margin:0;
-margin:2rem 0 0 3rem;
-padding: 7% 5% 7% 5%!important;
-}
-.item-date {
-margin-top:-60px;
-margin-left:4rem;
-font-size: 40px!important;
-}
-.cv-title {
-margin-bottom:0;
-margin-left:calc(2% - 5px);
-line-height:190%
-}
-.cv-title span {
-padding:1rem
-}
-.last-item{
-padding-top:80px;
-height:70px;
-position:relative
-}
-
-.black .white-text{
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
+    font-size:14px!important;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    img {
+    max-width:100%
+    }
+    
+    h2{
+        font-size:20px!important;
+    }
+    
+    .item {
+    padding-top:100px;
+    min-height:150px;
+    position:relative
+    }
+    .item:before,.last-item:after {
+    background:#fff;
+    border:8px solid #000;
+    border-radius:50%;
+    width:40px;
+    height:40px;
+    display:inline-block;
+    content:"";
+    margin-left:1rem;
+    position:relative;
+    z-index:1;
+    left:calc(2% - 36px)
+    }
+    .vertical-line {
+    width:8px;
+    background-color:#000;
+    position:absolute;
+    left:calc(2% - 5px);
+    top:0;
+    bottom:0
+    }
+    .item .card-panel {
+    margin:0;
+    margin:2rem 0 0 3rem;
+    padding: 7% 5% 7% 5%!important;
+    }
+    .item-date {
+    margin-top:-60px;
+    margin-left:4rem;
+    font-size: 40px!important;
+    }
+    .cv-title {
+    margin-bottom:0;
+    margin-left:calc(2% - 5px);
+    line-height:190%
+    }
+    .cv-title span {
+    padding:1rem
+    }
+    .last-item{
+    padding-top:80px;
+    height:70px;
+    position:relative
+    }
+    
+    .black .white-text{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .card-panel{
+        transition: background-color 0.2s ease-in-out;
+        background-color: rgba(255,255,255,0.2);
+    }
+    
+    .card-panel:hover{
+        transition:background-color 0.2s ease-in-out
+        background-color:rgba(255,255,255,1)
+    }
+    
+    .item .card-title{
+        font-size:24px;
+        font-weight:bold;
+    }
+    
+    h2:not(.item-date){
+        font-size:20px!important;
+        margin:30px 0px 30px 0px;
+        border-bottom:rgba(0,0,0,0.3) dotted 1px!important;
+        padding-bottom:10px;
+    }
+    
+    .card-panel>hr{
+    }
+    
+    .card-panel>p{
+        font-size:16px;
+    }
